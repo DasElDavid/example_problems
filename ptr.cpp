@@ -32,5 +32,7 @@ int main(){
     }
   cout << "}";
 
+  delete [] user_arr;
   return 0; 
+
 }
